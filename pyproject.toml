@@ -1,0 +1,19 @@
+[project]
+name = "equity-research-agent"
+version = "0.1.0"
+description = "Compare US equities with market data, SEC filings, and citation-backed analysis"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "faiss-cpu>=1.9",
+    "httpx>=0.28",
+    "langchain-community>=0.4",
+    "langchain-huggingface>=1",
+    "langchain-text-splitters>=1",
+    "pandas>=2.2",
+    "pydantic>=2.10",
+    "python-dotenv>=1",
+    "sentence-transformers>=4",
+    "streamlit>=1.45",
+    "yfinance>=0.2.61",
+]
